@@ -1,8 +1,9 @@
 import './index.css'
-import CryptocurrenciesList from './components/CryptocurrenciesList'
+import CryptocurrenciesList from '../CryptocurrenciesList'
+
 const CryptocurrencyTracker = () => {
   return (
-    <div classname="bg-container">
+    <div className="bg-container">
       <CryptocurrenciesList />
     </div>
   )
