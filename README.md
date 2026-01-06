@@ -13,7 +13,6 @@ In this project, let's build a **Cryptocurrency Tracker** by applying the concep
 <details>
 <summary>Click to view</summary>
 
-- [Extra Small (Size < 576px) and Small (Size >= 576px)](https://assets.ccbp.in/frontend/content/react-js/cryptocurrency-sm-success-output.png)
 - [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px)](https://assets.ccbp.in/frontend/content/react-js/cryptocurrency-lg-success-output.png)
 
 </details>
