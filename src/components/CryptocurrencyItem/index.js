@@ -4,12 +4,12 @@ const CryptocurrencyItem = props => {
   const {eachItem} = props
   const {currencyName, currencyLogo, usdValue, euroValue} = eachItem
   return (
-    <li>
-      <div>
-        <img src={currencyLogo} alt={currencyName} />
+    <li className="li-container">
+      <div className="currency-logo-container">
+        <img src={currencyLogo} alt={currencyName} className="logo" />
         <p>{currencyName}</p>
       </div>
-      <div>
+      <div className="currency-value-container">
         <p>{usdValue}</p>
         <p>{euroValue}</p>
       </div>

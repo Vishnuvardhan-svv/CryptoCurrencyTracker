@@ -30,20 +30,23 @@ class CryptocurrenciesList extends Component {
     return (
       <>
         {isLoading ? (
-          <div data-testid="loader">
+          <div data-testid="loader" className="loader-item">
             <Loader type="Rings" color="#ffffff" height={80} width={80} />
           </div>
         ) : (
-          <div>
-            <h1>Cryptocurrency Tracker</h1>
+          <div className="crypto-container">
+            <h1 className="heading">Cryptocurrency Tracker</h1>
             <img
               src="https://assets.ccbp.in/frontend/react-js/cryptocurrency-bg.png"
               alt="cryptocurrency"
             />
-            <div>
-              <div>
-                <p>Coin Type</p>
-                <div>
+            <div className="crypto-table">
+              <div className="table-heading">
+                <div className="coin-type-container">
+                  <p>Coin</p>
+                  <p>Type</p>
+                </div>
+                <div className="value-container">
                   <p>USD</p>
                   <p>EURO</p>
                 </div>
