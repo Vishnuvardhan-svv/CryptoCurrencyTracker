@@ -10,8 +10,8 @@ const CryptocurrencyItem = props => {
         <p>{currencyName}</p>
       </div>
       <div className="currency-value-container">
-        <p>{usdValue}</p>
-        <p>{euroValue}</p>
+        <p className="usd-value">{usdValue}</p>
+        <p className="euro-value">{euroValue}</p>
       </div>
     </li>
   )

@@ -1,17 +1,26 @@
 .logo {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
+  margin-right: 8%;
 }
+
 .li-container {
+  list-style-type: none;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
+
 .currency-logo-container {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 20%;
 }
 .currency-value-container {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  width: 20%;
 }

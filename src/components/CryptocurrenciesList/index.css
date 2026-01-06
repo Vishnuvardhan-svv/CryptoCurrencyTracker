@@ -34,8 +34,12 @@ ul {
   display: flex;
   flex-direction: row;
   color: #ffffff;
+  width: 20%;
+  justify-content: space-around;
 }
 .value-container {
   display: flex;
   flex-direction: row;
+  width: 20%;
+  justify-content: space-around;
 }
